@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Muisc-App/static/css/main.e9d2f94f.css",
+    "main.js": "/React-Muisc-App/static/js/main.da054a4d.js",
+    "static/js/787.01890fb4.chunk.js": "/React-Muisc-App/static/js/787.01890fb4.chunk.js",
+    "static/media/phelinazar.mp3": "/React-Muisc-App/static/media/phelinazar.b3e48554b581828790c6.mp3",
+    "static/media/kuchtohuahai.mp3": "/React-Muisc-App/static/media/kuchtohuahai.ef4d2f0f56acdc4cf7c7.mp3",
+    "static/media/chainsmoker.mp3": "/React-Muisc-App/static/media/chainsmoker.ce2a5066c70887e5968a.mp3",
+    "static/media/vanna_aaudaina.mp3": "/React-Muisc-App/static/media/vanna_aaudaina.a3f571f1b9923b954f7b.mp3",
+    "static/media/khamosiyan.mp3": "/React-Muisc-App/static/media/khamosiyan.2bb9e1c64ced97333f5a.mp3",
+    "static/media/meresamne.mp3": "/React-Muisc-App/static/media/meresamne.2b2ac8cc3d1a2d0773f8.mp3",
+    "static/media/song.mp3": "/React-Muisc-App/static/media/song.877f3b5b5515f76e259f.mp3",
+    "static/media/musiclogo.png": "/React-Muisc-App/static/media/musiclogo.f203e4efda9e20520a07.png",
+    "index.html": "/React-Muisc-App/index.html",
+    "main.e9d2f94f.css.map": "/React-Muisc-App/static/css/main.e9d2f94f.css.map",
+    "main.da054a4d.js.map": "/React-Muisc-App/static/js/main.da054a4d.js.map",
+    "787.01890fb4.chunk.js.map": "/React-Muisc-App/static/js/787.01890fb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9d2f94f.css",
+    "static/js/main.da054a4d.js"
+  ]
+}
