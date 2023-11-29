@@ -1,0 +1,228 @@
+.reactplayer{
+    display: none
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #d3d3d3, #49DBFB);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 800px;
+    min-width: 800px;
+    height: 550px;
+    min-height: 550px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display: flex;
+    /* backdrop-filter: blur(50px); */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box>.left{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.box> .left> h1{
+    font-size: 28px;
+    padding: 10px 0 10px 30px;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+}
+
+li{
+    list-style: none;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    padding: 10px 0 10px 10px;
+    margin: 0 0 10px 25px;
+    cursor: pointer;
+}
+
+.box>.right{
+    width: 50%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+}
+
+.box> .right> .top{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+}
+
+.right> .middle> img{
+    width: 75%;
+    position: relative;
+    height: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.bottom> .volumeinput{
+    width: 60px;
+    position: absolute;
+    right: 0px;
+    top: -70px;
+    transform: rotate(-90deg);
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+ .volumeicon{
+    position: absolute;
+    font-size: 18px;   
+    right: 22px;
+    top: -25px;
+}
+.bottom{
+    position: relative;
+}
+
+ .shufflebutton{
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    font-size: 24px;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    top: -50px;
+    left: 10px;
+}
+
+.bottom> p{
+    padding: 10px 0 10px 5px;
+}
+.bottom> .duration{
+    position: absolute;
+    right: 10px;
+    top: 0px
+}
+
+
+.controls{
+
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls> .prev, .controls> .next{
+    padding: 20px;
+    background: transparent;
+    font-size: 32px;
+    border: none;
+    outline: none;
+}
+
+.controls> .play{
+    font-size: 38px;
+    width: 70px;
+    height: 70px;
+    margin: 0 20px 0 20px;
+    background: rgba(0, 0, 0, 0.0);
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    border: none;
+}
+
+.playstatus{
+    position: relative;
+    left: 50px
+}
+
+.bottom> .songrange{
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 10px;
+
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.songrange::-webkit-slider-thumb, .volumeinput::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -205px 0px 0 200px rgba(255, 255, 255, 0.8);
+}
+
+.left> h1 > span{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 50px;
+}
+
+
+.left .slider{
+    display: flex;
+    width: 150px;
+    position: absolute;
+    right: 0px;
+    
+    animation: animate 0.5s linear forwards ;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+
+.timer{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.timer::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -205px 0px 0 200px rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+
+
+  

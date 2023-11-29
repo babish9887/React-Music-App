@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.audio-player {
+  margin-top: 20px;
+}
+
+audio {
+  width: 100%;
+  max-width: 400px;
+}
